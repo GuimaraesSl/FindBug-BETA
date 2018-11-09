@@ -154,7 +154,7 @@ class MenuB(gtk.Window):
 		self.Grid_Menu.attach(self.search,4,0,1,1)
 
 		#BackGround Color
-		self.Grid_Menu.override_background_color(0, Gdk.RGBA(0,0.4,0.2,3))
+		self.Grid_Menu.override_background_color(0, Gdk.RGBA(230,230,250))
 		
 
 		self.Nome_Ordem = str()

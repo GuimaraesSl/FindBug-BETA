@@ -25,56 +25,71 @@ def Search(self):
 				Nomes.remove('-')
 			try:
 				if Nomes[0] in gin and Nomes[1] in gin and  Nomes[2] in gin and  Nomes[3] in gin:
-					i += 1
-					if i > 4:
-						d = 1
+					if i == 4:
+						i = 0
+						l = 0 
+						d += 1
 						self.grid_result.attach(self.Button[c],l,d,1,1)
 						l += 1
 					else: 
-						self.grid_result.add(self.Button[c])
+						self.grid_result.attach(self.Button[c],l,d,1,1)
+						l += 1
+						i += 1
 			except:
 				try:
 					if Nomes[0] in gin and Nomes[1] in gin and  Nomes[2] in gin:
-						i += 1
-						if i > 4:
-							d = 1
+						if i == 4:
+							i = 0
+							l = 0 
+							d += 1
 							self.grid_result.attach(self.Button[c],l,d,1,1)
 							l += 1
 						else: 
-							self.grid_result.add(self.Button[c])
+							self.grid_result.attach(self.Button[c],l,d,1,1)
+							l += 1
+							i += 1
 				except:	
 					try:
 						if Nomes[0] in gin and Nomes[1] in gin:
-							i += 1
-							if i > 4:
-								d = 1
+							if i == 4:
+								i = 0
+								l = 0 
+								d += 1
 								self.grid_result.attach(self.Button[c],l,d,1,1)
 								l += 1
 							else: 
-								self.grid_result.add(self.Button[c])
+								self.grid_result.attach(self.Button[c],l,d,1,1)
+								l += 1
+								i += 1
 					except:
 						if Nomes[0] in gin:
-							i += 1
-							if i > 4:
-								d = 1
+							if i == 4:
+								i = 0
+								l = 0 
+								d += 1
 								self.grid_result.attach(self.Button[c],l,d,1,1)
 								l += 1
 							else: 
-								self.grid_result.add(self.Button[c])
-	
+								self.grid_result.attach(self.Button[c],l,d,1,1)
+								l += 1
+								i += 1
+
 	else:
 		for c in range(len(self.label)):
 			gin = self.label[c].get_text()
 			TextEntry = TextEntry.upper()
 			gin2 = self.Adictional[c].get_text()
 			if TextEntry in gin or TextEntry in gin2:
-				i += 1
-				if i > 4:
-					d = 1
+				if i == 4:
+					i = 0
+					l = 0 
+					d += 1
 					self.grid_result.attach(self.Button[c],l,d,1,1)
 					l += 1
 				else: 
-					self.grid_result.add(self.Button[c])
+					self.grid_result.attach(self.Button[c],l,d,1,1)
+					l += 1
+					i += 1
 
 	
 	self.Soly.show_all()
