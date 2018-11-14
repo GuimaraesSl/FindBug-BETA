@@ -6,11 +6,3 @@ win = MenuB()
 win.connect("destroy", gtk.main_quit)
 win.show_all()
 gtk.main()
-
-
-
-
-
-
-
-

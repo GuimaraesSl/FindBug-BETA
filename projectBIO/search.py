@@ -4,6 +4,26 @@ from Result import *
 from Insetos import *
 
 #After Two Hours Are Working Bitchhhhhhhhh 
+def ListAll(self):
+	Sol(self)
+	i = 0
+	l = 0
+	d = 0
+	for c in range(len(self.label)):
+		if i == 4:
+			i = 1
+			l = 0 
+			d += 1
+			self.grid_result.attach(self.Button[c],l,d,1,1)
+			l += 1
+		else: 
+			self.grid_result.attach(self.Button[c],l,d,1,1)
+			l += 1
+			i += 1
+	
+	self.Soly.show_all()
+	gtk.main()
+
 def Search(self):
 	Sol(self)
 	TextEntry = self.Entrada.get_text()
@@ -26,7 +46,7 @@ def Search(self):
 			try:
 				if Nomes[0] in gin and Nomes[1] in gin and  Nomes[2] in gin and  Nomes[3] in gin:
 					if i == 4:
-						i = 0
+						i = 1
 						l = 0 
 						d += 1
 						self.grid_result.attach(self.Button[c],l,d,1,1)
@@ -39,7 +59,7 @@ def Search(self):
 				try:
 					if Nomes[0] in gin and Nomes[1] in gin and  Nomes[2] in gin:
 						if i == 4:
-							i = 0
+							i = 1
 							l = 0 
 							d += 1
 							self.grid_result.attach(self.Button[c],l,d,1,1)
@@ -52,7 +72,7 @@ def Search(self):
 					try:
 						if Nomes[0] in gin and Nomes[1] in gin:
 							if i == 4:
-								i = 0
+								i = 1
 								l = 0 
 								d += 1
 								self.grid_result.attach(self.Button[c],l,d,1,1)
@@ -64,7 +84,7 @@ def Search(self):
 					except:
 						if Nomes[0] in gin:
 							if i == 4:
-								i = 0
+								i = 1
 								l = 0 
 								d += 1
 								self.grid_result.attach(self.Button[c],l,d,1,1)
@@ -81,7 +101,7 @@ def Search(self):
 			gin2 = self.Adictional[c].get_text()
 			if TextEntry in gin or TextEntry in gin2:
 				if i == 4:
-					i = 0
+					i = 1
 					l = 0 
 					d += 1
 					self.grid_result.attach(self.Button[c],l,d,1,1)
