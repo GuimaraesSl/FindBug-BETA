@@ -58,6 +58,24 @@ class MenuB(gtk.Window):
 		self.label[9].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b>ANTHONOMUS GRANDIS\n<b>NOMES COMUNS:</b>  BICUDO-DO-ALGODOEIRO\n<b>ORDEM:</b> COLEOPTERA\n<b>FAMÍLIA:</b> CURCULIONIDAE\n<b>SUBFAMÍLIA:</b> CURCULIONINAE\n<b>GÊNERO:</b> ANTHONOMUS </span>")
 		self.Adictional[9].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: OS PRIMEIROS ADULTOS MIGRAM PARA A CULTURA POR OCASIÃO DO FLORESCIMENTO, ATRAÍDOS PELO CHEIRO, E ATACAM INICIALMENTE OS BOTÕES FLORAIS QUE, APÓS O ATAQUE, APRESENTAM AS BRÁCTEAS ABERTAS E, POSTERIORMENTE, CAEM.  AS FLORES ATACADAS FICAM COM O ASPECTO DE BALÃO (“FLOR EM BALÃO”), DEVIDO À ABERTURA ANORMAL DAS PÉTALAS. AS MAÇÃS DO ALGODÃO APRESENTAM PERFURAÇÕES EXTERNAS, SENDO QUE, INTERNAMENTE, AS FIBRAS E SEMENTES SÃO DESTRUÍDAS POR LARVAS DECORRENTES DE OVIPOSIÇÃO DO INSETO, E IMPEDEM SUA ABERTURA NORMAL (“CARIMÃ”), DEIXANDO-AS ENEGRECIDAS. </b> </span>")
 
+		self.label[10].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b>TERATOPACTUS NODICOLLIS\n<b>NOMES COMUNS:</b>  GORGULHO DO SOLO\n<b>ORDEM:</b> COLEOPTERA\n<b>FAMÍLIA:</b> CURCULIONIDAE\n<b>SUBFAMÍLIA:</b> POLYDROSINAE\n<b>GÊNERO:</b> TERATOPACTUS HELLER </span>")
+		self.Adictional[10].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: AS LARVAS ALIMENTAM-SE DOS NÓDULOS EM LEGUMINOSAS, DA RADÍCULA E HIPOCÓTILO DAS PLANTAS E, NESTE CASO, AS PLANTAS MORREM ANTES DA EMERGÊNCIA, HAVENDO FALHAS NA LINHA DE PLANTIO. ELAS (AS LARVAS) PODEM CONSUMIR VÁRIAS PLANTAS, CAUSANDO MAIOR DANO NA FASE DE GERMINAÇÃO E NO INÍCIO DE DESENVOLVIMENTO VEGETATIVO. RESUMINDO, AS LARVAS DANIFICAM AS RAÍZES DA PLANTA. OS ADULTOS ATACAM FOLHAS E FLORES. </b> </span>")
+
+		self.label[11].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b>TRIGONA SPINIPES\n<b>NOMES COMUNS:</b> ABELHA IRAPUÃ\n<b>ORDEM:</b> HYMENOPTERA\n<b>FAMÍLIA:</b> APIDAE\n<b>SUBFAMÍLIA:</b> MELIPONÍNEOS\n<b>GÊNERO:</b> TRIGONA </span>")
+		self.Adictional[11].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DDANOS: CAUSA DANOS Á FOLHAS, FLORES, FRUTOS, CASCA (TRONCO) /CORTIÇA. OS DANOS SÃO FEITOS POR MEIO DO CORTE DOS TECIDOS QUANDO ESTÃO À PROCURA DE UMA SUBSTÂNCIA PARA A CONSTRUÇÃO DO NINHO. DESTRUIÇÃO DE BOTÕES FLORAIS APRESENTANDO ORIFÍCIOS DE ALGUMAS PLANTAS, FERIMENTOS E DANIFICAÇÃO DOS FRUTOS, DESTRUIÇÃO DE CACHOS DE UVA, DANIFICAM BROTOS DE CITRUS (TODAS AS ESPÉCIES) E PODE OCASIONAR QUEDA DE FLORES. </b> </span>")
+
+		self.label[12].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b>ARACANTHUS MOUREI\n<b>NOMES COMUNS:</b> TORRÃOZINHO\n<b>ORDEM:</b> COLEOPTERA\n<b>FAMÍLIA:</b> CURCULIONIDAE\n<b>SUBFAMÍLIA:</b> ENTIMINAE\n<b>GÊNERO:</b> ARACANTHUS </span>")
+		self.Adictional[12].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: GERALMENTE O ADULTO INICIA SEU ATAQUE NAS BORDAS DA LAVOURA, JUNTO A ESTRADAS OU A TALHÕES DE MILHO QUE ESTÃO PRÓXIMOS DA SOJA. O DANO MAIS GRAVE E QUANDO O SEU ATAQUE OCORRE NA FASE INICIAL DO DESENVOLVIMENTO DA CULTURA E CARACTERIZAM-SE POR PEQUENOS ORIFÍCIO E CORTES NAS MARGENS DA FOLHA E DOS COTILÉDONES, CONFERINDO UM ASPECTO DE SERRILHADO E EM ÁREAS COM GRANDE INFESTAÇÃO, O INSETO PODE ATACAR TAMBÉM A GEMA APICAL DO VEGETAL. </b> </span>")
+
+		self.label[13].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> PSYCHODA \n<b>NOMES COMUNS:</b> MOSCA DE ESGOTO, MOSCA-DE-BANHEIRO, MOSCA-DOS-FILTROS\n<b>ORDEM:</b> DIPTERA\n<b>FAMÍLIA:</b> PSYCHODIDAE\n<b>SUBFAMÍLIA:</b> PSYCHODINAE\n<b>GÊNERO:</b> CLOGMIA </span>")
+		self.Adictional[13].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DESCRIÇÃO: ASPECTO DE UMA PEQUENA TRAÇA, COM O CORPO E AS ASAS RECOBERTOS POR UMA FINA CAMADA DE PEQUENOS PELOS DE COLORAÇÃO CINZENTO-ACASTANHADA </b> </span>")
+
+		self.label[14].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> SUPELLA LOMGIPALPA \n<b>NOMES COMUNS:</b> BARATA DE FAIXA MARROM\n<b>ORDEM:</b> BLATTODEA\n<b>FAMÍLIA:</b> ECTOBIIDAE\n<b>SUBFAMÍLIA:</b> SUPELLA LONGIPALPA\n<b>GÊNERO:</b> SUPELLA </span>")
+		self.Adictional[14].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: ESSE ANIMAL É ORIGINÁRIO DO CONTINENTE AFRICANO MAS É CONSIDERADO UMA PESTE QUASE COSMOPOLITA. ESSA BARATA É COMUMENTE ENCONTRADA DENTRO DE RESIDÊNCIAS OU PRÓXIMO A ELAS </b> </span>")
+
+		self.label[15].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> PERIPLANETA FULIGINOSA \n<b>NOMES COMUNS:</b> BARATA MARROM FULIGEM OU BANDA MARROM, BANDA CAFÉ\n<b>ORDEM:</b> BLATTODEA\n<b>FAMÍLIA:</b> BLATTIDAE\n<b>SUBFAMÍLIA:</b> BLATTINAE\n<b>GÊNERO:</b> PERIPLANETA </span>")
+		self.Adictional[15].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: EMBORA SEJA PARENTE DA BARATA-AMERICANA, A BARATA MARROM FULIGEM É FACILMENTE DESTINGUÍVEL PO SUA COLORAÇÃO MARROM ESCURA. ALÉM DO QUE, AO CONTRÁRIO DA PARATA-AMERICANA, QUE GERALMENTE POSSUI UM TÓRAX DE COR CLARA, A FULIGINOSA APRESENTA UM TOM AMARRONZADO E BRILHANTE NA MESMA REGIAO. </b> </span>")
+
 		#ShowAll
 		self.Tudo = gtk.Button(label="Todos")
 
@@ -190,6 +208,8 @@ class MenuB(gtk.Window):
 		self.Ordem_store.append([1, "HEMIPTERA"])
 		self.Ordem_store.append([2, "BLATTODEA"])
 		self.Ordem_store.append([3, "COLEOPTERA"])
+		self.Ordem_store.append([4, "HYMENOPTERA"])
+		self.Ordem_store.append([5, "DIPTERA"])
 
 		self.Ordem_combo.set_entry_text_column(1)
 		self.Ordem_combo.connect("changed", self.on_Ordem_combo)
@@ -205,7 +225,11 @@ class MenuB(gtk.Window):
 		self.Family_store.append([2.7, "BLATTELLIDAE"])
 		self.Family_store.append([2.8, "SCARABAEIDAE"])
 		self.Family_store.append([2.9, "CURCULIONIDAE"])
-			
+		self.Family_store.append([3.0, "APIDAE"])
+		self.Family_store.append([3.1, "PSYCHODIDAE"])
+		self.Family_store.append([3.2, "ECTOBIIDAE"])
+		self.Family_store.append([3.3, "BLATTIDAE"])
+				
 		self.Family_combo.set_entry_text_column(1)
 		self.Family_combo.connect("changed", self.on_Family_combo)
 
@@ -220,7 +244,13 @@ class MenuB(gtk.Window):
 		self.SubFamily_store.append([3.7, "DYNASTINAE"])
 		self.SubFamily_store.append([3.8, "DRYOPHTHORINAE"])
 		self.SubFamily_store.append([3.9, "CURCULIONINAE"])
-	
+		self.SubFamily_store.append([4.0, "POLYDROSINAE"])
+		self.SubFamily_store.append([4.1, "MELIPONÍNEOS"])
+		self.SubFamily_store.append([4.2, "ENTIMINAE"])
+		self.SubFamily_store.append([4.3, "PSYCHODINAE"])
+		self.SubFamily_store.append([4.4, "SUPELLA LONGIPALPA"])
+		self.SubFamily_store.append([4.5, "BLATTINAE"])
+		
 		self.SubFamily_combo.set_entry_text_column(1)
 		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
 
@@ -231,6 +261,12 @@ class MenuB(gtk.Window):
 		self.Genero_store.append([4.3, "DYNASTES"])
 		self.Genero_store.append([4.4, "SPHENOPHORUS"])
 		self.Genero_store.append([4.5, "ANTHONOMUS"])
+		self.Genero_store.append([4.6, "TERATOPACTUS HELLER"])
+		self.Genero_store.append([4.7, "TRIGONA"])
+		self.Genero_store.append([4.8, "ARACANTHUS"])
+		self.Genero_store.append([4.9, "CLOGMIA"])
+		self.Genero_store.append([5.0, "SUPELLA"])
+		self.Genero_store.append([5.1, "PERIPLANETA"])
 
 		self.Genero_combo.set_entry_text_column(1)
 		self.Genero_combo.connect("changed", self.on_Genero_combo)
@@ -251,6 +287,12 @@ class MenuB(gtk.Window):
 
 			if self.ID == 3:
 				self.Family3()
+
+			if self.ID == 4:
+				self.Family4()
+
+			if self.ID == 5:
+				self.Family5()
 
 	def on_Family_combo(self,Family_combo):
 		self.tree_iter_Family = Family_combo.get_active_iter()
@@ -282,6 +324,22 @@ class MenuB(gtk.Window):
 
 			if self.ID_Family == 2.9:
 				self.SubFamily9()
+			
+			if self.ID_Family == 2.9:
+				self.SubFamily10()
+				self.SubFamily11()
+
+			if self.ID_Family == 3.0:
+				self.SubFamily11()
+
+			if self.ID_Family == 3.1:
+				self.SubFamily12()
+
+			if self.ID_Family == 3.2:
+				self.SubFamily13()
+
+			if self.ID_Family == 3.3:
+				self.SubFamily15()
 	
 	
 	def on_SubFamily_combo(self,SubFamily_combo):
@@ -306,7 +364,24 @@ class MenuB(gtk.Window):
 			if self.ID_SubFamily == 3.9:
 				self.Genero5()
 		
+			if self.ID_SubFamily == 4.0:
+				self.Genero6()
 
+			if self.ID_SubFamily == 4.1:
+				self.Genero7()
+		
+			if self.ID_SubFamily == 4.2:
+				self.Genero8()
+
+			if self.ID_SubFamily == 4.3:
+				self.Genero9()
+
+			if self.ID_SubFamily == 4.4:
+				self.Genero10()
+
+			if self.ID_SubFamily == 4.5:
+				self.Genero11()
+		
 	def on_Genero_combo(self,Genero_combo):
 		self.tree_iter_Genero = Genero_combo.get_active_iter()
 		if self.tree_iter_Genero != None:
@@ -315,6 +390,7 @@ class MenuB(gtk.Window):
 			self.ID_Genero = float(self.ID_G) 
 
  #------------------------------------------DEF'S ORGANIZAÇÃO--------------------------------------
+		#HEMIPTERA	
 	def Family1(self):
 		self.Family_store.clear()
 		self.Family_store.append([2.02, "-"])
@@ -328,24 +404,44 @@ class MenuB(gtk.Window):
 		self.Family_combo.set_entry_text_column(1)
 		self.Family_combo.connect("changed", self.on_Family_combo)
 
+		#BLATTODEA
 	def Family2(self):
 		self.Family_store.clear()
 		self.Family_store.append([2.02, "-"])
 		self.Family_store.append([2.7, "BLATTELLIDAE"])
+		self.Family_store.append([3.2, "ECTOBIIDAE"])
+		self.Family_store.append([3.3, "BLATTIDAE"])
 
 		self.Family_combo.set_entry_text_column(1)
 		self.Family_combo.connect("changed", self.on_Family_combo)
 
+		#CLEOPTERA
 	def Family3(self):
 		self.Family_store.clear()
 		self.Family_store.append([2.02, "-"])
 		self.Family_store.append([2.8, "SCARABAEIDAE"])
 		self.Family_store.append([2.9, "CURCULIONIDAE"])
-
+		
 
 		self.Family_combo.set_entry_text_column(1)
 		self.Family_combo.connect("changed", self.on_Family_combo)
-		
+
+		#HYMENOPTERA
+	def Family4(self):
+		self.Family_store.clear()
+		self.Family_store.append([2.02, "-"])
+		self.Family_store.append([3.0, "APIDAE"])
+
+		self.Family_combo.set_entry_text_column(1)
+		self.Family_combo.connect("changed", self.on_Family_combo)
+		#DIPTERA
+	def Family5(self):
+		self.Family_store.clear()
+		self.Family_store.append([2.02, "-"])
+		self.Family_store.append([3.1, "PSYCHODIDAE"])
+
+		self.Family_combo.set_entry_text_column(1)
+		self.Family_combo.connect("changed", self.on_Family_combo)
 
 	def SubFamily1(self):
 		self.SubFamily_store.clear()
@@ -421,8 +517,52 @@ class MenuB(gtk.Window):
 		
 		self.SubFamily_combo.set_entry_text_column(1)
 		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
-			
-	
+
+	def SubFamily10(self):
+		self.SubFamily_store.clear()
+		self.SubFamily_store.append([3.01, "-"])
+		self.SubFamily_store.append([4.0, "POLYDROSINAE"])
+		
+		self.SubFamily_combo.set_entry_text_column(1)
+		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
+
+	def SubFamily11(self):
+		self.SubFamily_store.clear()
+		self.SubFamily_store.append([3.01, "-"])
+		self.SubFamily_store.append([4.1, "MELIPONÍNEOS"])
+		
+		self.SubFamily_combo.set_entry_text_column(1)
+		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
+
+	def SubFamily12(self):
+		self.SubFamily_store.clear()
+		self.SubFamily_store.append([3.01, "-"])
+		self.SubFamily_store.append([4.2, "ENTIMINAE"])
+		
+		self.SubFamily_combo.set_entry_text_column(1)
+		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
+
+	def SubFamily13(self):
+		self.SubFamily_store.clear()
+		self.SubFamily_store.append([3.01, "-"])
+		self.SubFamily_store.append([4.3, "PSYCHODINAE"])
+		
+		self.SubFamily_combo.set_entry_text_column(1)
+		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
+
+	def SubFamily14(self):
+		self.SubFamily_store.clear()
+		self.SubFamily_store.append([3.01, "-"])
+		self.SubFamily_store.append([4.4, "SUPELLA LONGIPALPA"])
+
+	def SubFamily15(self):
+		self.SubFamily_store.clear()
+		self.SubFamily_store.append([3.01, "-"])
+		self.SubFamily_store.append([4.5, "BLATTINAE"])
+		
+		self.SubFamily_combo.set_entry_text_column(1)
+		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
+		
 	def Genero1(self):
 		self.Genero_store.clear()
 		self.Genero_store.append([4.01, "-"])
@@ -459,6 +599,54 @@ class MenuB(gtk.Window):
 		self.Genero_store.clear()
 		self.Genero_store.append([4.01, "-"])
 		self.Genero_store.append([4.5, "ANTHONOMUS"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	def Genero6(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([4.6, "	TERATOPACTUS HELLER"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	def Genero7(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([4.7, "TRIGONA"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	def Genero8(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([4.8, "ARACANTHUS"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	def Genero9(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([4.9, "CLOGMIA"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	def Genero10(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([5.0, "SUPELLA"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	def Genero11(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([5.1, "PERIPLANETA"])
 
 		self.Genero_combo.set_entry_text_column(1)
 		self.Genero_combo.connect("changed", self.on_Genero_combo)

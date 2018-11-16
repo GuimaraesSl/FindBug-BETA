@@ -105,6 +105,60 @@ def Sol(self):
 	height=250, 
 	preserve_aspect_ratio=True)
 	self.image9.set_from_pixbuf(pixbuf9)
+
+	#image10
+	self.image10= gtk.Image()
+	pixbuf10 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto10.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image10.set_from_pixbuf(pixbuf10)
+
+	#image11
+	self.image11= gtk.Image()
+	pixbuf11 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto11.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image11.set_from_pixbuf(pixbuf11)
+
+	#image12
+	self.image12= gtk.Image()
+	pixbuf12 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto12.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image12.set_from_pixbuf(pixbuf12)
+
+	#image13
+	self.image13= gtk.Image()
+	pixbuf13 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto13.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image13.set_from_pixbuf(pixbuf13)
+
+	#image14
+	self.image14= gtk.Image()
+	pixbuf14 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto14.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image14.set_from_pixbuf(pixbuf14)
+
+	#image15
+	self.image15= gtk.Image()
+	pixbuf15 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto15.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image15.set_from_pixbuf(pixbuf15)
 	
 	#Button0
 	self.Button[0].add(self.image0)
@@ -162,5 +216,41 @@ def Sol(self):
 	self.Button[9].add(self.image9)
 	self.Button[9].set_size_request(100,100)
 	self.Button[9].connect('clicked', lambda arg: Inseto9(self))
+	#----------------------------------------
+
+	#Button10
+	self.Button[10].add(self.image10)
+	self.Button[10].set_size_request(100,100)
+	self.Button[10].connect('clicked', lambda arg: Inseto10(self))
+	#----------------------------------------		
+
+	#Button11
+	self.Button[11].add(self.image11)
+	self.Button[11].set_size_request(100,100)
+	self.Button[11].connect('clicked', lambda arg: Inseto11(self))
+	#----------------------------------------		
+
+	#Button12
+	self.Button[12].add(self.image12)
+	self.Button[12].set_size_request(100,100)
+	self.Button[12].connect('clicked', lambda arg: Inseto12(self))
 	#----------------------------------------	
+
+	#Button13
+	self.Button[13].add(self.image13)
+	self.Button[13].set_size_request(100,100)
+	self.Button[13].connect('clicked', lambda arg: Inseto13(self))
+	#----------------------------------------	
+
+	#Button14
+	self.Button[14].add(self.image14)
+	self.Button[14].set_size_request(100,100)
+	self.Button[14].connect('clicked', lambda arg: Inseto14(self))
+	#----------------------------------------
+
+	#Button15
+	self.Button[15].add(self.image15)
+	self.Button[15].set_size_request(100,100)
+	self.Button[15].connect('clicked', lambda arg: Inseto15(self))
+	#----------------------------------------		
 	return 0
