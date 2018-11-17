@@ -159,6 +159,34 @@ def Sol(self):
 	height=250, 
 	preserve_aspect_ratio=True)
 	self.image15.set_from_pixbuf(pixbuf15)
+
+	#image16
+	self.image16= gtk.Image()
+	pixbuf16 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto16.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image16.set_from_pixbuf(pixbuf16)
+
+	#image17
+	self.image17= gtk.Image()
+	pixbuf17 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto17.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image17.set_from_pixbuf(pixbuf17)
+
+	#image18
+	self.image18= gtk.Image()
+	pixbuf18 =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto18.jpg', 
+	width=250, 
+	height=250, 
+	preserve_aspect_ratio=True)
+	self.image18.set_from_pixbuf(pixbuf18)
+
 	
 	#Button0
 	self.Button[0].add(self.image0)
@@ -252,5 +280,23 @@ def Sol(self):
 	self.Button[15].add(self.image15)
 	self.Button[15].set_size_request(100,100)
 	self.Button[15].connect('clicked', lambda arg: Inseto15(self))
+	#----------------------------------------		
+
+	#Button16
+	self.Button[16].add(self.image16)
+	self.Button[16].set_size_request(100,100)
+	self.Button[16].connect('clicked', lambda arg: Inseto16(self))
+	#----------------------------------------	
+
+	#Button17
+	self.Button[17].add(self.image17)
+	self.Button[17].set_size_request(100,100)
+	self.Button[17].connect('clicked', lambda arg: Inseto17(self))
+	#----------------------------------------	
+
+	#Button18
+	self.Button[18].add(self.image18)
+	self.Button[18].set_size_request(100,100)
+	self.Button[18].connect('clicked', lambda arg: Inseto18(self))
 	#----------------------------------------		
 	return 0
