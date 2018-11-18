@@ -83,7 +83,22 @@ class MenuB(gtk.Window):
 		self.Adictional[17].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: CAUSAM IMPORTANTES PREJUÍZOS AS PASTAGENS E LAVOURAS DE MILHO. FOLHAS PICADAS MOSTRAM ÁREAS CLORÓTICAS E COM SINAIS DE NECROSE, O QUE PODE LEVAR A MORTE DA PLANTA. PLANTAS NOVAS SÃO EXTREMAMENTE SENSÍVEIS AO ATAQUE DA PRAGA. </b> </span>")
 
 		self.label[18].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> EUBORELLIA SP \n<b>NOMES COMUNS:</b> TESOURINHA\n<b>ORDEM:</b> DERMAPTERA\n<b>FAMÍLIA:</b> ANISOLABIDIDAE\n<b>SUBFAMÍLIA:</b> ANISOLABIDINAE\n<b>GÊNERO:</b> EUBORELLIA </span>")
-		self.Adictional[18].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: ANOS: DE MODO GERAL, DERMÁPTEROS NÃO SÃO APONTADOS COMO PRAGAS. </b> </span>")
+		self.Adictional[18].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: DE MODO GERAL, DERMÁPTEROS NÃO SÃO APONTADOS COMO PRAGAS. </b> </span>")
+
+		self.label[19].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> EUSCHISTUS HEROS SP \n<b>NOMES COMUNS:</b> PERCEVEJO DA SOJA OU PERCEVEJO-MARROM-DA-SOJA.\n<b>ORDEM:</b> HEMIPTERA\n<b>FAMÍLIA:</b> PENTATOMIDAE\n<b>SUBFAMÍLIA:</b> PENTATOMINAE\n<b>GÊNERO:</b> EUSCHISTUS </span>")
+		self.Adictional[19].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: ESSES INSETOS AFETAM AS CULTURAS DE ALGODÃO, GIRASSOL E SOJA. É CONHECIDO POR SER UMA DAS MAIS AGRESSIVAS PRAGAS DA CULTURA DA SOJA. </b> </span>")
+
+		self.label[20].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> LABIDURA RIPARIA \n<b>NOMES COMUNS:</b> BICHA-CADELA OU TESOURINHA\n<b>ORDEM:</b> DERMAPTERA\n<b>FAMÍLIA:</b> LABIDURIDAE\n<b>SUBFAMÍLIA:</b> LABIDURINAE\n<b>GÊNERO:</b> LABIDURA </span>")
+		self.Adictional[20].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: É CONSIDERADA UMA PREDADORA GENERALISTA SE ALIMENTANDO DE UMA VARIEDADE DE INSETOS INCLUSIVE DE OUTROS INSETOS E PRAGAS COMO A BROCA DE CANA. </b> </span>")
+
+		self.label[21].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> LEPTOGLOSSUS STIGMA \n<b>NOMES COMUNS:</b> PERCEVEJO-GAÚCHO OU PERCEVEJO – DAS – FRUTAS.\n<b>ORDEM:</b> HEMIPTERA\n<b>FAMÍLIA:</b> COREIDAE\n<b>SUBFAMÍLIA:</b> COREINAE\n<b>GÊNERO:</b> LEPTOGLOSSUS </span>")
+		self.Adictional[21].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: AS CULTURAS AFETADAS SÃO ABÓBORA, CAJU, MILHO, SORGO, ROMÃ, CARAMBOLA, CITROS, GOIABA, MANGA, MARACUJÁ, MELANCIA E PEPINO, PRINCIPALMENTE PELO FATO DE CAUSAR DANOS DIRETOS NO PRODUTO COMERCIAL, QUE SÃO OS FRUTOS. </b> </span>")
+
+		self.label[22].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> MAHANARVA FIMBRIOLATA \n<b>NOMES COMUNS:</b> CIGARRINHA-DA-CANA-DE-AÇÚCAR, BARATINHA, CIGARRINHA-DOS-CANAVIAIS E CIGARRINHA-VERMELHA.\n<b>ORDEM:</b> HEMIPTERA\n<b>FAMÍLIA:</b> CERCOPIDAE\n<b>SUBFAMÍLIA:</b> TOMASPEDINAE\n<b>GÊNERO:</b> MAHANARVA </span>")
+		self.Adictional[22].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: ATACA PRINCIPALMENTE AS FOLHAS E AS RAÍZES DA CANA DE AÇÚCAR. CANA-DE-AÇÚCAR, PASTAGENS, TODAS AS CULTURAS COM OCORRÊNCIA DO ALVO BIOLÓGICO. </b> </span>")
+
+		self.label[23].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>NOME CIENTÍFICO:</b> NEOMEGALOTOMUS PARVUS \n<b>NOMES COMUNS:</b> PERCEVEJO-FORMIGÃO.\n<b>ORDEM:</b> HEMIPTERA\n<b>FAMÍLIA:</b> ALYDIDAE\n<b>SUBFAMÍLIA:</b> PENTATOMINAE\n<b>GÊNERO:</b> NEOMEGALOTOMUS </span>")
+		self.Adictional[23].set_markup("<span foreground='#001000' size='x-large' face='Arial'><b>INFORMAÇÕES ADICIONAIS: DANOS: SEMENTE OU GRÃO, CAULE/RAMOS EM LAVOURAS EM GERAL. </b> </span>")
 
 		#ShowAll
 		self.Tudo = gtk.Button(label="Todos")
@@ -242,6 +257,8 @@ class MenuB(gtk.Window):
 		self.Family_store.append([3.4, "ELATERIDAE"])
 		self.Family_store.append([3.5, "CERCOPIDAE"])
 		self.Family_store.append([3.6, "ANISOLABIDIDAE"])
+		self.Family_store.append([3.7, "LABIDURIDAE"])
+		self.Family_store.append([3.8, "ALYDIDAE"])
 				
 		self.Family_combo.set_entry_text_column(1)
 		self.Family_combo.connect("changed", self.on_Family_combo)
@@ -266,6 +283,8 @@ class MenuB(gtk.Window):
 		self.SubFamily_store.append([4.6, "AGRYPNINAE"])
 		self.SubFamily_store.append([4.7, "TOMASPIDINAE"])
 		self.SubFamily_store.append([4.8, "ANISOLABIDINAE"])
+		self.SubFamily_store.append([4.9, "LABIDURINAE"])
+		self.SubFamily_store.append([5.0, "TOMASPEDINAE"])
 		
 		self.SubFamily_combo.set_entry_text_column(1)
 		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
@@ -287,6 +306,11 @@ class MenuB(gtk.Window):
 		self.Genero_store.append([5.3, "DEOIS"])
 		self.Genero_store.append([5.4, "DICHELOPS"])
 		self.Genero_store.append([5.5, "EUBORELLIA"])
+		self.Genero_store.append([5.6, "EUSCHISTUS"])
+		self.Genero_store.append([5.7, "LABIDURA"])
+		self.Genero_store.append([5.8, "LEPTOGLOSSUS"])
+		self.Genero_store.append([5.9, "MAHANARVA"])
+		self.Genero_store.append([6.0, "NEOMEGALOTOMUS"])
 
 		self.Genero_combo.set_entry_text_column(1)
 		self.Genero_combo.connect("changed", self.on_Genero_combo)
@@ -368,6 +392,12 @@ class MenuB(gtk.Window):
 
 			if self.ID_Family == 3.6:
 				self.SubFamily18()
+
+			if self.ID_Family == 3.7:
+				self.SubFamily19()
+
+			if self.ID_Family == 3.8:
+				self.SubFamily2()
 		
 	
 	def on_SubFamily_combo(self,SubFamily_combo):
@@ -377,8 +407,15 @@ class MenuB(gtk.Window):
 			self.ID_SF, self.Nome_SubFamily = self.model_Subfamily[self.tree_iter_SubFamily][:2]
 			self.ID_SubFamily = float(self.ID_SF) 
 
+			
 			if self.ID_SubFamily == 3.1:
 				self.Genero1()
+
+			if self.ID_SubFamily == 3.2:
+				self.Genero14()
+
+			if self.ID_SubFamily == 3.5:
+				self.Genero17()
 
 			if self.ID_SubFamily == 3.6:
 				self.Genero2()
@@ -416,11 +453,14 @@ class MenuB(gtk.Window):
 			if self.ID_SubFamily == 4.7:
 				self.Genero13()
 
-			if self.ID_SubFamily == 3.2:
-				self.Genero14()
-
 			if self.ID_SubFamily == 4.8:
 				self.Genero15()
+
+			if self.ID_SubFamily == 4.9:
+				self.Genero16()
+
+			if self.ID_SubFamily == 5.0:
+				self.Genero18()
 		
 	def on_Genero_combo(self,Genero_combo):
 		self.tree_iter_Genero = Genero_combo.get_active_iter()
@@ -441,6 +481,7 @@ class MenuB(gtk.Window):
 		self.Family_store.append([2.5, "COREIDAE"])
 		self.Family_store.append([2.6, "CANTHOCORIDAE"])
 		self.Family_store.append([3.5, "CERCOPIDAE"])
+		self.Family_store.append([3.8, "ALYDIDAE"])
 
 		self.Family_combo.set_entry_text_column(1)
 		self.Family_combo.connect("changed", self.on_Family_combo)
@@ -491,6 +532,7 @@ class MenuB(gtk.Window):
 		self.Family_store.clear()
 		self.Family_store.append([2.02, "-"])
 		self.Family_store.append([3.6, "ANISOLABIDIDAE"])
+		self.Family_store.append([3.7, "LABIDURIDAE"])
 
 		self.Family_combo.set_entry_text_column(1)
 		self.Family_combo.connect("changed", self.on_Family_combo)
@@ -537,8 +579,7 @@ class MenuB(gtk.Window):
 	def SubFamily5(self):
 		self.SubFamily_store.clear()
 		self.SubFamily_store.append([3.01, "-"])
-		self.SubFamily_store.append([3.5, "COREINAE"])
-		
+		self.SubFamily_store.append([3.5, "COREINAE"])	
 
 		self.SubFamily_combo.set_entry_text_column(1)
 		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
@@ -626,15 +667,25 @@ class MenuB(gtk.Window):
 		self.SubFamily_store.clear()
 		self.SubFamily_store.append([3.01, "-"])
 		self.SubFamily_store.append([4.7, "TOMASPIDINAE"])
+		self.SubFamily_store.append([5.0, "TOMASPEDINAE"])
 		
 		self.SubFamily_combo.set_entry_text_column(1)
 		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
 
-	#Ordem: DERMÁPTEROS Familia: ANISOLABIDIDAE
+	#Ordem: DERMAPTERA Familia: ANISOLABIDIDAE
 	def SubFamily18(self):
 		self.SubFamily_store.clear()
 		self.SubFamily_store.append([3.01, "-"])
 		self.SubFamily_store.append([4.8, "ANISOLABIDINAE"])
+		
+		self.SubFamily_combo.set_entry_text_column(1)
+		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
+
+	#Ordem: DERMAPTERA Familia: LABIDURIDAE
+	def SubFamily19(self):
+		self.SubFamily_store.clear()
+		self.SubFamily_store.append([3.01, "-"])
+		self.SubFamily_store.append([4.9, "LABIDURINAE"])
 		
 		self.SubFamily_combo.set_entry_text_column(1)
 		self.SubFamily_combo.connect("changed", self.on_SubFamily_combo)
@@ -752,7 +803,7 @@ class MenuB(gtk.Window):
 		self.Genero_combo.set_entry_text_column(1)
 		self.Genero_combo.connect("changed", self.on_Genero_combo)
 
-	#Ordem: HEMIPTERA Familia: CERCOPIDAE Subfamília: TOMASPIDINAE
+	#HEMIPTERA  CERCOPIDAE  TOMASPIDINAE
 	def Genero13(self):
 		self.Genero_store.clear()
 		self.Genero_store.append([4.01, "-"])
@@ -761,20 +812,49 @@ class MenuB(gtk.Window):
 		self.Genero_combo.set_entry_text_column(1)
 		self.Genero_combo.connect("changed", self.on_Genero_combo)
 
-	#Ordem: HEMIPTERA Familia: PENTATOMIDAE Subfamília: PENTATOMINAE
+	#HEMIPTERA  PENTATOMIDAE  PENTATOMINAE
 	def Genero14(self):
 		self.Genero_store.clear()
 		self.Genero_store.append([4.01, "-"])
 		self.Genero_store.append([5.4, "DICHELOPS"])
+		self.Genero_store.append([5.6, "EUSCHISTUS"])
+		self.Genero_store.append([6.0, "NEOMEGALOTOMUS"])
 
 		self.Genero_combo.set_entry_text_column(1)
 		self.Genero_combo.connect("changed", self.on_Genero_combo)
 
-	#Ordem: DERMAPTERA Familia: ANISOLABIDIDAE Subfamília: ANISOLABIDINAE
+	#DERMAPTERA  ANISOLABIDIDAE  ANISOLABIDINAE
 	def Genero15(self):
 		self.Genero_store.clear()
 		self.Genero_store.append([4.01, "-"])
 		self.Genero_store.append([5.5, "EUBORELLIA"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	#DERMAPTERA LABIDURIDAE LABIDURINAE
+	def Genero16(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([5.7, "LABIDURA"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	#HEMIPTERA COREIDAE COREINAE
+	def Genero17(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([5.8, "LEPTOGLOSSUS"])
+
+		self.Genero_combo.set_entry_text_column(1)
+		self.Genero_combo.connect("changed", self.on_Genero_combo)
+
+	#HEMIPTERA COREIDAE TOMASPEDINAE
+	def Genero18(self):
+		self.Genero_store.clear()
+		self.Genero_store.append([4.01, "-"])
+		self.Genero_store.append([5.9, "MAHANARVA"])
 
 		self.Genero_combo.set_entry_text_column(1)
 		self.Genero_combo.connect("changed", self.on_Genero_combo)

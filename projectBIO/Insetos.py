@@ -987,3 +987,263 @@ def Inseto18(self):
 	Ani.connect("destroy", gtk.main_quit)
 	Ani.show_all()
 	gtk.main()
+
+def Inseto19(self):
+	Inseto19 = gtk.Window()
+
+	scrolled = gtk.ScrolledWindow()
+	scrolled.set_policy(gtk.PolicyType.NEVER, gtk.PolicyType.AUTOMATIC)
+	grid = gtk.Grid()
+	scrolled.add(grid)
+	Inseto19.add(scrolled)
+
+	Inseto19.set_border_width(10)
+	Inseto19.set_default_size(700, 500)
+
+	pixbuf =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto19.jpg', 
+	width=500, 
+	height=350, 
+	preserve_aspect_ratio=True)
+	image = gtk.Image()
+	image.set_from_pixbuf(pixbuf)
+	image.set_halign(gtk.Align.START)
+	image.set_margin_left(5)
+	image.set_margin_right(5)
+	image.set_margin_top(5)
+	image.set_margin_bottom(5)
+	grid.attach(image,0,0,1,1)
+	
+	
+	self.label[19].set_justify(gtk.Justification.LEFT)
+	self.label[19].set_valign(gtk.Align.START)
+
+	self.label[19].set_margin_left(0)
+	self.label[19].set_margin_right(5)
+	self.label[19].set_margin_top(5)
+
+	grid.attach(self.label[19],1,0,1,1)
+
+	self.Adictional[19].set_justify(gtk.Justification.FILL)
+	self.Adictional[19].set_valign(gtk.Align.START)
+	self.Adictional[19].set_halign(gtk.Align.START)
+	self.Adictional[19].set_margin_left(5)
+	self.Adictional[19].set_line_wrap(True)
+	
+	grid.attach_next_to(self.Adictional[19],image, gtk.PositionType.BOTTOM, 1, 1)
+
+	grid.override_background_color(0, Gdk.RGBA(0,139,0,0.5))
+	#                                       (red,green,blue,alpha)
+
+	Ani = Inseto19
+	Ani.connect("destroy", gtk.main_quit)
+	Ani.show_all()
+	gtk.main()
+
+def Inseto20(self):
+	Inseto20 = gtk.Window()
+
+	scrolled = gtk.ScrolledWindow()
+	scrolled.set_policy(gtk.PolicyType.NEVER, gtk.PolicyType.AUTOMATIC)
+	grid = gtk.Grid()
+	scrolled.add(grid)
+	Inseto20.add(scrolled)
+
+	Inseto20.set_border_width(10)
+	Inseto20.set_default_size(700, 500)
+
+	pixbuf =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto20.jpg', 
+	width=500, 
+	height=350, 
+	preserve_aspect_ratio=True)
+	image = gtk.Image()
+	image.set_from_pixbuf(pixbuf)
+	image.set_halign(gtk.Align.START)
+	image.set_margin_left(5)
+	image.set_margin_right(5)
+	image.set_margin_top(5)
+	image.set_margin_bottom(5)
+	grid.attach(image,0,0,1,1)
+	
+	
+	self.label[20].set_justify(gtk.Justification.LEFT)
+	self.label[20].set_valign(gtk.Align.START)
+
+	self.label[20].set_margin_left(0)
+	self.label[20].set_margin_right(5)
+	self.label[20].set_margin_top(5)
+
+	grid.attach(self.label[20],1,0,1,1)
+
+	self.Adictional[20].set_justify(gtk.Justification.FILL)
+	self.Adictional[20].set_valign(gtk.Align.START)
+	self.Adictional[20].set_halign(gtk.Align.START)
+	self.Adictional[20].set_margin_left(5)
+	self.Adictional[20].set_line_wrap(True)
+	
+	grid.attach_next_to(self.Adictional[20],image, gtk.PositionType.BOTTOM, 1, 1)
+
+	grid.override_background_color(0, Gdk.RGBA(0,139,0,0.5))
+	#                                       (red,green,blue,alpha)
+
+	Ani = Inseto20
+	Ani.connect("destroy", gtk.main_quit)
+	Ani.show_all()
+	gtk.main()
+
+def Inseto21(self):
+	Inseto21 = gtk.Window()
+
+	scrolled = gtk.ScrolledWindow()
+	scrolled.set_policy(gtk.PolicyType.NEVER, gtk.PolicyType.AUTOMATIC)
+	grid = gtk.Grid()
+	scrolled.add(grid)
+	Inseto21.add(scrolled)
+
+	Inseto21.set_border_width(10)
+	Inseto21.set_default_size(700, 500)
+
+	pixbuf =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto21.jpg', 
+	width=500, 
+	height=350, 
+	preserve_aspect_ratio=True)
+	image = gtk.Image()
+	image.set_from_pixbuf(pixbuf)
+	image.set_halign(gtk.Align.START)
+	image.set_margin_left(5)
+	image.set_margin_right(5)
+	image.set_margin_top(5)
+	image.set_margin_bottom(5)
+	grid.attach(image,0,0,1,1)
+	
+	
+	self.label[21].set_justify(gtk.Justification.LEFT)
+	self.label[21].set_valign(gtk.Align.START)
+
+	self.label[21].set_margin_left(0)
+	self.label[21].set_margin_right(5)
+	self.label[21].set_margin_top(5)
+
+	grid.attach(self.label[21],1,0,1,1)
+
+	self.Adictional[21].set_justify(gtk.Justification.FILL)
+	self.Adictional[21].set_valign(gtk.Align.START)
+	self.Adictional[21].set_halign(gtk.Align.START)
+	self.Adictional[21].set_margin_left(5)
+	self.Adictional[21].set_line_wrap(True)
+	
+	grid.attach_next_to(self.Adictional[21],image, gtk.PositionType.BOTTOM, 1, 1)
+
+	grid.override_background_color(0, Gdk.RGBA(0,139,0,0.5))
+	#                                       (red,green,blue,alpha)
+
+	Ani = Inseto21
+	Ani.connect("destroy", gtk.main_quit)
+	Ani.show_all()
+	gtk.main()
+
+def Inseto22(self):
+	Inseto22 = gtk.Window()
+
+	scrolled = gtk.ScrolledWindow()
+	scrolled.set_policy(gtk.PolicyType.NEVER, gtk.PolicyType.AUTOMATIC)
+	grid = gtk.Grid()
+	scrolled.add(grid)
+	Inseto22.add(scrolled)
+
+	Inseto22.set_border_width(10)
+	Inseto22.set_default_size(700, 500)
+
+	pixbuf =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto22.jpg', 
+	width=500, 
+	height=350, 
+	preserve_aspect_ratio=True)
+	image = gtk.Image()
+	image.set_from_pixbuf(pixbuf)
+	image.set_halign(gtk.Align.START)
+	image.set_margin_left(5)
+	image.set_margin_right(5)
+	image.set_margin_top(5)
+	image.set_margin_bottom(5)
+	grid.attach(image,0,0,1,1)
+	
+	
+	self.label[22].set_justify(gtk.Justification.LEFT)
+	self.label[22].set_valign(gtk.Align.START)
+
+	self.label[22].set_margin_left(0)
+	self.label[22].set_margin_right(5)
+	self.label[22].set_margin_top(5)
+
+	grid.attach(self.label[22],1,0,1,1)
+
+	self.Adictional[22].set_justify(gtk.Justification.FILL)
+	self.Adictional[22].set_valign(gtk.Align.START)
+	self.Adictional[22].set_halign(gtk.Align.START)
+	self.Adictional[22].set_margin_left(5)
+	self.Adictional[22].set_line_wrap(True)
+	
+	grid.attach_next_to(self.Adictional[22],image, gtk.PositionType.BOTTOM, 1, 1)
+
+	grid.override_background_color(0, Gdk.RGBA(0,139,0,0.5))
+	#                                       (red,green,blue,alpha)
+
+	Ani = Inseto22
+	Ani.connect("destroy", gtk.main_quit)
+	Ani.show_all()
+	gtk.main()
+
+def Inseto23(self):
+	Inseto23 = gtk.Window()
+
+	scrolled = gtk.ScrolledWindow()
+	scrolled.set_policy(gtk.PolicyType.NEVER, gtk.PolicyType.AUTOMATIC)
+	grid = gtk.Grid()
+	scrolled.add(grid)
+	Inseto23.add(scrolled)
+
+	Inseto23.set_border_width(10)
+	Inseto23.set_default_size(700, 500)
+
+	pixbuf =  GdkPixbuf.Pixbuf.new_from_file_at_scale(
+	filename='Pics/inseto23.jpg', 
+	width=500, 
+	height=350, 
+	preserve_aspect_ratio=True)
+	image = gtk.Image()
+	image.set_from_pixbuf(pixbuf)
+	image.set_halign(gtk.Align.START)
+	image.set_margin_left(5)
+	image.set_margin_right(5)
+	image.set_margin_top(5)
+	image.set_margin_bottom(5)
+	grid.attach(image,0,0,1,1)
+	
+	
+	self.label[23].set_justify(gtk.Justification.LEFT)
+	self.label[23].set_valign(gtk.Align.START)
+
+	self.label[23].set_margin_left(0)
+	self.label[23].set_margin_right(5)
+	self.label[23].set_margin_top(5)
+
+	grid.attach(self.label[23],1,0,1,1)
+
+	self.Adictional[23].set_justify(gtk.Justification.FILL)
+	self.Adictional[23].set_valign(gtk.Align.START)
+	self.Adictional[23].set_halign(gtk.Align.START)
+	self.Adictional[23].set_margin_left(5)
+	self.Adictional[23].set_line_wrap(True)
+	
+	grid.attach_next_to(self.Adictional[23],image, gtk.PositionType.BOTTOM, 1, 1)
+
+	grid.override_background_color(0, Gdk.RGBA(0,139,0,0.5))
+	#                                       (red,green,blue,alpha)
+
+	Ani = Inseto23
+	Ani.connect("destroy", gtk.main_quit)
+	Ani.show_all()
+	gtk.main()
